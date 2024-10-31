@@ -11,8 +11,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <!-- Header Placeholder -->
-    <div id="header-placeholder"></div>
+    <header>
+        <div class="logo">
+            <!-- Optional Logo: Replace 'logo.png' with your logo file or remove the div if not using a logo -->
+            <img src="logo.png" alt="Website Logo" id="site-logo">
+        </div>
+        <h1 id="welcome-message">Welcome to My Personal Website!</h1>
+        <nav>
+            <ul class="navigation-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about/">About Me</a></li>
+                <li><a href="contact/">Contact Me</a></li>
+                <li><a href="privacy/">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
         <section class="home-section">
@@ -23,8 +36,10 @@
         </section>
     </main>
 
-    <!-- Footer Placeholder -->
-    <div id="footer-placeholder"></div>
+    <footer>
+        <p>&copy; 2024 Personal Website</p>
+        <p><a href="privacy/">Privacy Policy</a></p>
+    </footer>
 
     <!-- Link to JavaScript File -->
     <script src="script.js"></script>
